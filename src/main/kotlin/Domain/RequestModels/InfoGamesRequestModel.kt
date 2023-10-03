@@ -1,9 +1,9 @@
 package Domain.RequestModels
 
-class InfoGamesRequestModel(val gameId: String): RequestModel {
+class InfoGamesRequestModel(val titleGame: String): RequestModel {
     override fun queryParameters(): Map<String, Any> {
         var queryParams = LinkedHashMap<String, Any>()
-        queryParams["id"] = gameId
+        queryParams["title"] = titleGame
         return queryParams
     }
 }
