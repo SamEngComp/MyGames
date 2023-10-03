@@ -1,4 +1,4 @@
-package Data
+package Data.UseCases
 
 import Domain.Models.InfoGame
 import Domain.UseCases.RetrieveGamesInterface
