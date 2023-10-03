@@ -1,14 +1,12 @@
 package Data.UseCases
 
-import Data.Endpoints.Endpoint
 import Data.Endpoints.GamesEndpoint
-import Domain.Models.InfoGames
 import Domain.Models.Game
 import Domain.RequestModels.InfoGamesRequestModel
-import Domain.UseCases.RetrieveGamesInterface
+import Domain.UseCases.RetrieveGameUseCaseInterface
 import Infra.Operation
 
-class RetriveGames: RetrieveGamesInterface {
+class RetrieveGameUseCase: RetrieveGameUseCaseInterface {
 
     val operation: Operation
 

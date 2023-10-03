@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="100885d6-fbfe-4ead-abfe-584d06684cb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetriveGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetriveGames.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/RequestModels/InfoGamesRequestModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/RequestModels/InfoGamesRequestModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGamesInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGamesInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGameUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGameUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGameUseCaseInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGameUseCaseInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -46,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696334151120</updated>
-      <workItem from="1696334152109" duration="13578000" />
+      <workItem from="1696334152109" duration="17744000" />
     </task>
     <servers />
   </component>
