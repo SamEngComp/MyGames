@@ -1,7 +1,8 @@
 package Domain.UseCases
 
-import Domain.Models.InfoGame
+import Domain.Models.InfoGames
+import Domain.RequestModels.InfoGamesRequestModel
 
 interface RetrieveGamesInterface {
-    fun getGames(): MutableList<InfoGame>?
+    fun getGames(requestModel: InfoGamesRequestModel): MutableList<InfoGames>?
 }

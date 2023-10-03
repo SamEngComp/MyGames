@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="100885d6-fbfe-4ead-abfe-584d06684cb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/RetriveGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetriveGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetriveGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetriveGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/InfoGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/InfoGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGamesInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGamesInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
         <option value="Kotlin Script" />
         <option value="Kotlin Worksheet" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -94,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696334151120</updated>
-      <workItem from="1696334152109" duration="5889000" />
+      <workItem from="1696334152109" duration="8100000" />
     </task>
     <servers />
   </component>
