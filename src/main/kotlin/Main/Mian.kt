@@ -1,4 +1,4 @@
-import Models.Game
+import Domain.Models.Game
 
 fun main() {
 

@@ -1,4 +1,4 @@
-package Models
+package Domain.Models
 
 data class Game(val title: String,
                 val thumb: String) {
