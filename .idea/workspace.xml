@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="100885d6-fbfe-4ead-abfe-584d06684cb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGameUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGamesUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Game.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGameUseCaseInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGamesUseCaseInterface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Infra/Operation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Infra/Operation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Gamer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Gamer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main/Mian.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGamers/SearchGamersViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGamers/SearchGamersViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGamesView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGamesViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696334151120</updated>
       <workItem from="1696334152109" duration="18064000" />
-      <workItem from="1696381787534" duration="12652000" />
+      <workItem from="1696381787534" duration="13599000" />
     </task>
     <servers />
   </component>

@@ -8,9 +8,10 @@ data class Game(@SerializedName("titulo") val title: String,
                 @SerializedName("descricao") var description: String) {
 
     override fun toString(): String {
-        return "Chosen game: $title\n" +
+        return "Title game: $title\n" +
                 "Thumb URL: $thumb\n" +
-                "Price: $price" +
-                "Description: $description"
+                "Description: $description\n" +
+                "Price: $price"
+
     }
 }

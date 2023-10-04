@@ -1,7 +1,17 @@
 package Domain.Models
 
-data class Gamer(val name: String,
+import com.google.gson.annotations.SerializedName
+
+data class Gamer(@SerializedName("nome") val name: String,
                  val email: String,
-                 val dateBirth: String,
-                 val userName: String,
-                 val internalId: String)
+                 @SerializedName("dataNascimento") val dateBirth: String,
+                 @SerializedName("usuario") val userName: String,
+                 @SerializedName("idInterno") val internalId: String) {
+    override fun toString(): String {
+        return "Name: $name\n" +
+                "E-mail: $email\n" +
+                "User name: $userName\n" +
+                "Date birth: $dateBirth"
+
+    }
+}

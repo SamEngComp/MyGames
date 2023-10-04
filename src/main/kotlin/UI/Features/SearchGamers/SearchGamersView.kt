@@ -1,8 +1,8 @@
-package UI.Features.SearchGames
+package UI.Features.SearchGamers
 
-import java.util.Scanner
+import java.util.*
 
-class SearchGameView(val viewModel: SearchGameViewModel) {
+class SearchGamersView(val viewModel: SearchGamersViewModel) {
 
     // PROPERTIES
 
@@ -21,7 +21,7 @@ class SearchGameView(val viewModel: SearchGameViewModel) {
         val operation = input.nextLine()
 
         if (operation.equals("Y", true)) {
-            println(viewModel.retrieveGame())
+            println(viewModel.retrieveGamers())
         }
         else println("To the next!")
     }

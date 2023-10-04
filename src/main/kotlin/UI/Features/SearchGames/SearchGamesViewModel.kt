@@ -3,16 +3,16 @@ package UI.Features.SearchGames
 import Domain.Models.Game
 import Domain.UseCases.RetrieveGamesUseCaseInterface
 
-class SearchGameViewModel(val useCase: RetrieveGamesUseCaseInterface) {
+class SearchGamesViewModel(val useCase: RetrieveGamesUseCaseInterface) {
 
     // METHODS
 
-    fun retrieveGame(): String {
+    fun retrieveGames(): String {
         val result = useCase.getGames()
         return setupListView(result)
     }
 
-    fun setupListView(gameList: List<Game>?): String {
+    private fun setupListView(gameList: List<Game>?): String {
         if (gameList.isNullOrEmpty()) return "Game not found"
         var gameListString = "*************************\nResult list:\n\n"
 
