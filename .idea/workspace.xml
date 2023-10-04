@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100885d6-fbfe-4ead-abfe-584d06684cb6" name="Changes" comment="" />
+    <list default="true" id="100885d6-fbfe-4ead-abfe-584d06684cb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/Endpoints/GamesEndpoint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/Endpoints/GamesEndpoint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGameUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Data/UseCases/RetrieveGameUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/Models/InfoGames.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/RequestModels/InfoGamesRequestModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/RequestModels/InfoGamesRequestModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGameUseCaseInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Domain/UseCases/RetrieveGameUseCaseInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Infra/Dispatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Infra/Dispatch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Infra/Operation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Infra/Operation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UI/Features/SearchGames/SearchGameViewModel.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2WFhHrZKdjgELVoA5lqESAgJNqV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -38,28 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "kotlin"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;kotlin&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/Data/Endpoints" />
@@ -94,11 +106,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696334151120</updated>
-      <workItem from="1696334152109" duration="17983000" />
+      <workItem from="1696334152109" duration="18064000" />
+      <workItem from="1696381787534" duration="8254000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,13 +1,20 @@
 package Domain.Models
 
-data class Game(val title: String,
-                val thumb: String) {
+import com.google.gson.annotations.SerializedName
 
-    var description: String? = null
+data class Game(@SerializedName("titulo") val title: String,
+                @SerializedName("capa") val thumb: String,
+                @SerializedName("preco") val price: Double,
+                @SerializedName("descricao") var description: String) {
 
     override fun toString(): String {
-        var gameReport = "Chosen game: $title\n" + "Thumb URL: $thumb\n"
-        if (description?.isBlank() == true) gameReport += "Description: $description"
-        return gameReport
+        return "Chosen game: $title\n" +
+                "Thumb URL: $thumb\n" +
+                "Price: $price" +
+                "Description: $description"
     }
+}
+
+fun Game.createGame(): Game {
+    return Game(this.title, this.thumb, this.price, this.description)
 }

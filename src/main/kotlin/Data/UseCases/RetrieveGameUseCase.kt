@@ -2,19 +2,16 @@ package Data.UseCases
 
 import Data.Endpoints.GamesEndpoint
 import Domain.Models.Game
-import Domain.RequestModels.InfoGamesRequestModel
+import Domain.Models.createGame
+
 import Domain.UseCases.RetrieveGameUseCaseInterface
+
 import Infra.Operation
 
-class RetrieveGameUseCase: RetrieveGameUseCaseInterface {
+class RetrieveGameUseCase(val operation: Operation) : RetrieveGameUseCaseInterface {
 
-    val operation: Operation
-
-    constructor(operation: Operation) {
-        this.operation = operation
-    }
-
-    override fun getGames(requestModel: InfoGamesRequestModel): MutableList<Game>? {
-        return operation.execute<MutableList<Game>>(GamesEndpoint.retrieveGames, requestModel)
+    override fun getGames(): List<Game>? {
+        val gameList = operation.executeForList<Game>(GamesEndpoint.retrieveGames, null)
+        return gameList?.map { game -> game.createGame() }
     }
 }

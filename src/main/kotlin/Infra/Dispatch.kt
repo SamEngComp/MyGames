@@ -9,39 +9,34 @@ import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 
 interface Dispatch {
-    fun execute(endpoint: Endpoint, requestModel: RequestModel): HttpResponse<String>?
+    fun execute(endpoint: Endpoint, requestModel: RequestModel?): HttpResponse<String>?
 }
 
 class DispatchGames: Dispatch {
 
-    fun buildURI(endpoint: Endpoint, requestModel: RequestModel): URI {
-        var address = endpoint.path() + "?"
-        val queryParams = requestModel.queryParameters()
-        for (key in queryParams) address += "$key=$queryParams&"
+    private fun buildURI(endpoint: Endpoint, requestModel: RequestModel?): URI? {
+        var address = endpoint.path()
 
-        address.removeRange(address.lastIndex, address.length)
+        if (requestModel != null) {
+            address += "?"
+            val queryParams = requestModel.queryParameters()
 
-        return URI.create(address)
+            for (query in queryParams) address += "$query&"
+            address = address.dropLast(1)
+        }
+
+        return URI.create(address) ?: null
     }
 
-    override fun execute(endpoint: Endpoint, requestModel: RequestModel): HttpResponse<String>? {
-        var uri: URI? = null
-        var response: HttpResponse<String>? = null
+    override fun execute(endpoint: Endpoint, requestModel: RequestModel?): HttpResponse<String>? {
+        val uri: URI = buildURI(endpoint, requestModel) ?: return null
 
-        val createURI = runCatching {
-            uri = this.buildURI(endpoint, requestModel)
-        }
+        val client: HttpClient = HttpClient.newHttpClient()
+        val request = HttpRequest.newBuilder()
+            .uri(uri)
+            .build()
 
-        createURI.onSuccess {
-            val client: HttpClient = HttpClient.newHttpClient()
-            val request = HttpRequest.newBuilder()
-                .uri(uri)
-                .build()
-
-            response = client
-                .send(request, HttpResponse.BodyHandlers.ofString())
-        }
-
-        return response
+        return client
+            .send(request, HttpResponse.BodyHandlers.ofString())
     }
 }
