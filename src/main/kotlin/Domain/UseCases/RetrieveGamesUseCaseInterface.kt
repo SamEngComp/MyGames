@@ -2,6 +2,6 @@ package Domain.UseCases
 
 import Domain.Models.Game
 
-interface RetrieveGameUseCaseInterface {
+interface RetrieveGamesUseCaseInterface {
     fun getGames(): List<Game>?
 }

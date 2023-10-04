@@ -1,4 +1,4 @@
-import Data.UseCases.RetrieveGameUseCase
+import Data.UseCases.RetrieveGamesUseCase
 
 import Infra.DispatchGames
 import Infra.Operation
@@ -12,7 +12,7 @@ fun main() {
 
     val dispatch = DispatchGames()
     val operation = Operation(dispatch)
-    val useCase = RetrieveGameUseCase(operation)
+    val useCase = RetrieveGamesUseCase(operation)
     val viewModel = SearchGameViewModel(useCase)
     val view = SearchGameView(viewModel)
 

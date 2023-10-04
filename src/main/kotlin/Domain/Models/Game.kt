@@ -14,7 +14,3 @@ data class Game(@SerializedName("titulo") val title: String,
                 "Description: $description"
     }
 }
-
-fun Game.createGame(): Game {
-    return Game(this.title, this.thumb, this.price, this.description)
-}

@@ -1,9 +1,9 @@
 package UI.Features.SearchGames
 
 import Domain.Models.Game
-import Domain.UseCases.RetrieveGameUseCaseInterface
+import Domain.UseCases.RetrieveGamesUseCaseInterface
 
-class SearchGameViewModel(val useCase: RetrieveGameUseCaseInterface) {
+class SearchGameViewModel(val useCase: RetrieveGamesUseCaseInterface) {
 
     // METHODS
 
